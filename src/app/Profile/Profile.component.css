@@ -1,0 +1,128 @@
+/* Genel stil ayarları */
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.card {
+  visibility: hidden !important; /* Öğeyi görünmez yapar ama yer kaplamaya devam eder */
+  border: none !important; /* Kenarlığı kaldırır */
+}
+body {
+  font-family: 'Inter', sans-serif !important;
+  background-color: #f4f7fc !important;
+  display: flex !important;
+  justify-content: center !important; /* Sayfayı ortalar */
+  padding: 40px !important;
+}
+
+/* Profil Container */
+.profile-container {
+  width: 100% !important;
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  background-color: #fff !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  overflow-y: auto !important;
+  height: auto !important;
+}
+
+.profile-img {
+  border-radius: 50% !important;
+  width: 220px !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  margin: 0 auto !important;
+  display: block !important;
+  margin-top: 20px !important;
+}
+
+h4 {
+  color: #333 !important;
+  margin-top: 20px !important;
+  font-weight: 600 !important;
+}
+
+h6 {
+  color: #5A6C57 !important;
+  font-size: 16px !important;
+  margin-bottom: 20px !important;
+}
+
+/* Profil Başlık Çizgisi */
+.profile-hr {
+  border: 0 !important;
+  height: 1px !important;
+  background-color: #e0e0e0 !important;
+  margin: 15px 0 !important;
+}
+
+/* Profil Hakkında Bilgiler */
+.about-me p {
+  font-size: 0.9rem !important;
+  color: #333 !important;
+  margin: 10px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.about-me i {
+  margin-right: 10px !important;
+  color: #5A6C57 !important;
+}
+
+/* Resume Butonu */
+.resume-btn {
+  display: block !important;
+  margin: 20px 0 !important;
+  padding: 12px 50px !important;
+  background-color: #85A98F !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+  width: 100% !important;
+  text-align: center !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.resume-btn:hover {
+  background-color: #F3F4F6 !important;
+}
+
+/* Sosyal Medya İkonları */
+.social-icons {
+  margin-top: 20px !important;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 20px !important;
+}
+
+.icon {
+  font-size: 30px !important;
+  color: #333 !important;
+  transition: color 0.3s ease !important;
+}
+
+.icon:hover {
+  color: #5A6C57 !important;
+}
+
+/* Responsive Ayarlamalar */
+@media (max-width: 768px) {
+  .profile-img {
+    width: 180px !important;
+    height: 180px !important;
+  }
+
+  .resume-btn {
+    font-size: 14px !important;
+  }
+
+  .about-me p {
+    font-size: 14px !important;
+  }
+}

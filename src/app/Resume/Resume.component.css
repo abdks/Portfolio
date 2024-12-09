@@ -1,0 +1,71 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f7f7; /* Daha yumuşak bir arka plan */
+  margin: 0;
+  padding: 40px 20px; /* Üstten biraz daha padding */
+}
+.experience-container {
+  width: 1000px; /* Sabit genişlik */
+  margin: 0 auto;
+  padding: 20px;
+  max-height: 630px; /* Sabit yükseklik */
+}
+.experience-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.experience-item {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 12px; /* Daha yuvarlak köşeler */
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Hafif ve modern gölge */
+  transition: transform 0.3s, box-shadow 0.3s; /* Hover efektine gölge ekle */
+
+}
+
+.experience-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Hoverda daha belirgin gölge */
+}
+
+.experience-item .details {
+  text-align: left;
+}
+
+.experience-item h2 {
+  font-size: 28px; /* Başlık büyüklüğü arttırıldı */
+  color: #5A6C57;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px; /* Başlıklar arasına hafif boşluk ekledik */
+}
+
+.experience-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-item li {
+  font-size: 16px;
+  color: #666; /* Daha yumuşak gri renk */
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.experience-item li::before {
+  content: "•";
+  color: #5A6C57; /* Nokta rengi başlıkla uyumlu */
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .experience-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

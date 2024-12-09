@@ -1,0 +1,23 @@
+<img *ngIf="profileUrl" [src]="profileUrl" class="profile-img" alt="Profile Photo">
+<h4 class="mt-3 text-center" style="color: black;"><b>{{userName}}</b></h4>
+<h6 class="text-center">{{userJob}}</h6>
+<hr class="profile-hr" style="border: none;" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<div class="about-me">
+    <p><i class="fa fa-map-marker"></i> {{userLocation}}</p>
+    <p><i class="fa fa-envelope-o"></i> {{userEmail}}</p>
+    <p><i class="fa fa-birthday-cake"></i> {{userDateOfBirth}}</p>
+</div>
+
+<button class="resume-btn">Resume</button>
+
+<div class="social-icons">
+  <a href="https://github.com/yourusername" target="_blank" class="icon">
+      <i class="fab fa-github"></i>
+  </a>
+  <a href="https://linkedin.com/in/yourusername" target="_blank" class="icon">
+      <i class="fab fa-linkedin"></i>
+  </a>
+</div>

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f7fc;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-start; /* Sağ tarafa yaslama */
+}
+
+.profile-container {
+  width: 1000px; /* Sabit genişlik */
+  margin: 0 auto;
+  padding: 20px;
+  max-height: 630px; /* Sabit yükseklik */
+  overflow-y: auto; /* Taşarsa kaydırma çubuğu ekler */
+
+}
+
+.profile-views {
+  display: flex;
+  justify-content: flex-end; /* Sağ tarafa yaslama */
+  margin-bottom: 20px; /* Yukarıdan biraz boşluk bırakma */
+}
+
+.profile-views span {
+  padding: 10px;
+  background-color: #85A98F;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.profile-info h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 15px 0;
+}
+
+.profile-info p {
+  font-size: 16px;
+  color: #555;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.profile-info i {
+  color: #85A98F;
+  margin-right: 10px;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Font Awesome Icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');

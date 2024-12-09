@@ -1,0 +1,56 @@
+/* Navbar'ın genel stilini ayarlıyoruz */
+.navbar {
+  background-color: white !important;
+}
+
+.nav-link {
+  font-family: 'Inter', sans-serif !important;
+  text-decoration: none !important;
+  color: #000 !important; /* Varsayılan renk */
+  font-size: 18px !important; /* Yazı boyutunu büyütüyoruz */
+  font-weight: 600 !important; /* Yazıyı kalın yapıyoruz */
+  position: relative !important; /* ::after için konumlandırma */
+  transition: color 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease !important; /* Yumuşak geçişler */
+  margin-right: 15px !important; /* Öğeler arasındaki mesafeyi artırıyoruz */
+  display: flex; /* Flexbox ile ikon ve yazıyı hizalamak */
+  align-items: center; /* Yatay hizalama */
+}
+
+.nav-link i {
+  margin-right: 5px !important; /* İkon ile metin arasındaki mesafe */
+  font-size: 16px !important; /* İkonun boyutunu küçültüyoruz */
+}
+
+.nav-link::after {
+  content: '' !important; /* Pseudo-element içeriği */
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 0 !important;
+  height: 2px !important; /* Çizginin kalınlığı */
+  background-color: #D3F1DF !important; /* Çizgi rengi */
+  transition: width 0.3s ease !important; /* Çizginin genişlemesi için geçiş */
+}
+
+.nav-link:hover {
+  color: #D3F1DF !important; /* Hover durumunda renk değişimi */
+  font-size: 20px !important; /* Hover durumunda font büyütme */
+  font-weight: 700 !important; /* Hover durumunda fontu daha kalın yapma */
+}
+
+.nav-link:hover::after {
+  width: 100% !important; /* Hover durumunda çizgi genişler */
+}
+
+/* Active durumunda farklı renk ve stil */
+.nav-link.active {
+  color: #5A6C57 !important; /* Active renk değişimi */
+  font-size: 20px !important; /* Active durumunda font büyütme */
+  font-weight: 700 !important; /* Active durumunda kalın yazı */
+}
+
+.nav-link.active::after {
+  width: 100% !important; /* Active durumda da çizgi genişler */
+  background-color: #5A6C57 !important; /* Active durumunda çizginin rengi */
+}
+
