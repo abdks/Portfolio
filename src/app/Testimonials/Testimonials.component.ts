@@ -14,7 +14,7 @@ import { Testimonials } from '../configuration';
       {
         id: 1,
         title: 'MULTİSHOP',
-        description: 'Sıfırdan geliştirdiğim mikroservis mimarisiyle yapılandırılmış bir E-ticaret platformu. Kullanıcı güvenliği için JWT ve Identity teknolojilerini entegre ettim. Projede veri yönetimi için MS SQL, MongoDB, Redis, PostgreSQL ve Elasticsearch gibi çeşitli veri tabanlarını kullandım. API yönetimi için Ocelot ile mikroservisler arası iletişimi sağladım ve RabbitMQ ile mesajlaşma süreçlerini yönettim. Docker ve Dapper kullanarak sistemin ölçeklenebilirliğini ve verimliliğini artırdım. Mikroservisler sayesinde ürün yönetimi, sipariş işlemleri ve kullanıcı etkileşimlerini bağımsız olarak yöneterek daha verimli ve esnek bir çözüm sundum.(Proje Solid prensipleri ve OOP standartlarına dikkat edilerek geliştirilmiştir.) ',
+        description: 'Sıfırdan geliştirdiğim mikroservis mimarisiyle yapılandırılmış bir E-ticaret platformu. Kullanıcı güvenliği için JWT ve Identity teknolojilerini entegre ettim. Projede veri yönetimi için MS SQL, MongoDB, Redis, PostgreSQL ve Elasticsearch gibi çeşitli veri tabanlarını kullandım. API yönetimi için Ocelot ile mikroservisler arası iletişimi sağladım ve RabbitMQ ile mesajlaşma süreçlerini yönettim. Docker ve Dapper kullanarak sistemi....) ',
         images: ['https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg', 'https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D', 'https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg'],
         link: 'https://github.com/abdks/MultiShop'
       },
