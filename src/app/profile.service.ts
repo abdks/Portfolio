@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ProfileService {
 
-  private apiUrl = 'https://localhost:44341/api/Information/Informations/cac16edf-0ce9-49a5-845f-42405fd8bae9';  // API'nizin URL'si
+  private apiUrl = 'https://localhost:44341/api/Information/Informations/775e1683-65b2-4bc1-bb69-f8ada4709ad0';  // API'nizin URL'si
 
   constructor(private http: HttpClient) { }
 
